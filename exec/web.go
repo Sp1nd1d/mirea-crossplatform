@@ -19,7 +19,6 @@ func proceedWebOutput(text interface{}) {
 	webOutputElement.Set("textContent", newText)
 }
 
-// implementation of backspace
 func proceedWebBackspace() {
 	currentText := webOutputElement.Get("textContent").String()
 	newText := currentText
